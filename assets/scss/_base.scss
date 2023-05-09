@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #FEF8F2;
+}
+
+body {
+  overflow-x: hidden;
+}
+//
+//* {
+//  @media screen and (max-width: 680px) {
+//    font-size: 15px;
+//  }
+//}
