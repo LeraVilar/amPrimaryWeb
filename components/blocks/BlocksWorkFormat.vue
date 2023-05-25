@@ -15,7 +15,7 @@
             'work-format__item-image': true,
             'work-format__item-image_top': index === 1 || index === 4
           }"
-          :src="`@/assets/images/workFormatHovers/${item.image}.png`"
+          :src="useAsset(`images/${item.image}.png`)"
         />
         <div>
           <h3 class="work-format__item-title">
@@ -88,7 +88,16 @@ const tabs = [
 ]
 
   export default {
-
+    methods: {
+      useAsset(path) {
+        const assets = import.meta.glob('~/assets/**/*', {
+          eager: true,
+          import: 'default',
+        })
+        console.log(assets['/assets/' + path]);
+        return assets['/assets/' + path]
+      }
+    },
     setup () {
 
       return {
