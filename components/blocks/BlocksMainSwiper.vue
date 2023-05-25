@@ -23,7 +23,7 @@
           <elements-main-swiper-item
             :title="item.fullName"
             :text="item.title"
-            :photo="'http://95.163.236.196:1337' + item.avatar.data.attributes.url"
+            :photo="'https://dzhobava.com/server' + item.avatar.data.attributes.url"
             :modalHeading="item.popupComand.title"
             :modalTitle="item.popupComand.About"
             @openModal="openModal"

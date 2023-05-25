@@ -2,13 +2,13 @@
   <h2 id="mediaArticles">Статьи в СМИ</h2>
   <div class="wrapper-card">
     <div v-if="!isMain" v-for="(item, i) in store.geDataCardMedia" :key="i" class="card">
-      <img :src="'http://95.163.236.196:1337' + item?.image?.data[0]?.attributes?.url" />
+      <img :src="'https://dzhobava.com/server' + item?.image?.data[0]?.attributes?.url" />
       <h3 class="heading-card">{{ item.heading }}</h3>
       <p class="title-card">{{ item.title }}</p>
       <elements-read-articles :href="item.link" class="btnRead" />
     </div>
     <div v-for="(item, i) in store.geDataCardMedia.splice(0, 2)" v-if="isMain" :key="i" class="card">
-      <img :src="'http://95.163.236.196:1337' + item?.image?.data[0]?.attributes?.url" />
+      <img :src="'https://dzhobava.com/server' + item?.image?.data[0]?.attributes?.url" />
       <h3 class="heading-card">{{ item.heading }}</h3>
       <p class="title-card">{{ item.title }}</p>
       <elements-read-articles :href="item.link" class="btnRead" />

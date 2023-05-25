@@ -8,7 +8,7 @@
   </div>
   <div class="wrapper">
     <div v-for="(item, index) in store.getUsefulData.filter((_, i) => i < 3)" :key="index" class="cardArticles">
-      <img :src="`http://95.163.236.196:1337${item.image?.data[0].attributes?.url}`"/>
+      <img :src="`https://dzhobava.com/server${item.image?.data[0].attributes?.url}`"/>
       <h2>{{ item.heading }}</h2>
       <p>{{ item.title }}</p>
       <a @click.prevent="goTo(item.heading, index)" :href="item.href">Читать статью</a>

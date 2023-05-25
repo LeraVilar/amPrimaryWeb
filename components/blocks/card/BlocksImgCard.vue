@@ -1,5 +1,5 @@
 <template>
-      <img :src="'http://95.163.236.196:1337'+link" alt="Программа">
+      <img :src="'https://dzhobava.com/server'+link" alt="Программа">
 </template>
 <style scoped>
   img {

@@ -12,7 +12,7 @@
         'workers-list__card_reversed': index % 2 === 1
       }"
     >
-      <img class="workers-list__card-image" :src="'http://95.163.236.196:1337' + item?.image.data.attributes.url" />
+      <img class="workers-list__card-image" :src="'https://dzhobava.com/server' + item?.image.data.attributes.url" />
       <div class="workers-list__info-panel">
         <div class="workers-list__product-type">
           {{ item?.subTitle }}

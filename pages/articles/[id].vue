@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="block-author">
-            <img :src="'http://95.163.236.196:1337' + store.getUsefulData[store.index]?.imageAuthor?.data[0].attributes?.url" alt="">
+            <img :src="'https://dzhobava.com/server' + store.getUsefulData[store.index]?.imageAuthor?.data[0].attributes?.url" alt="">
             <div>
             <p>Автор Статьи</p>
             <p>{{ store.getUsefulData[store.index]?.author }}</p>

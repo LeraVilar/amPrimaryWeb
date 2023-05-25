@@ -11,7 +11,7 @@
         </ul>
       </div>
       <div class="block-author">
-        <img :src="'http://95.163.236.196:1337' + webinars?.getDataWebinars[indexPopup]?.attributes?.imageAuthor?.data[0].attributes?.url" alt="">
+        <img :src="'https://dzhobava.com/server' + webinars?.getDataWebinars[indexPopup]?.attributes?.imageAuthor?.data[0].attributes?.url" alt="">
         <div>
           <p>Автор вебинара</p>
           <p>{{webinars?.getDataWebinars[indexPopup]?.attributes?.author}}</p>
@@ -23,7 +23,7 @@
     <div :id="linkTransform.methods.linkTransform(item.attributes.heading)" v-for="(item, index) in webinars.getDataWebinars" :key="index" class="webinars-list__card">
       <div class="webinars-list__card-wrapper-img">
         <div class="discount" v-if="item.attributes.discount"><span>На {{ item.attributes.discount }}% выгоднее</span></div>
-        <img :src="'http://95.163.236.196:1337' + item?.attributes?.image?.data?.attributes?.url" alt="Вебинар">
+        <img :src="'https://dzhobava.com/server' + item?.attributes?.image?.data?.attributes?.url" alt="Вебинар">
       </div>
       <div class="webinars-list__card-wrapper-text">
         <p class="who-be">{{ item.attributes.whoBe }}</p>

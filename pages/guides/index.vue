@@ -30,7 +30,7 @@
           </div>
           </div>
           <div v-for="(item, i) in currentModalData?.authorGuide" :key="i" class="guides__author-block">
-            <img class="guides__author-image" :src="'http://95.163.236.196:1337' + item.avatar.data.attributes.url" />
+            <img class="guides__author-image" :src="'https://dzhobava.com/server' + item.avatar.data.attributes.url" />
             <div class="guides__about-author">
               <div class="guides__author-label">
                 Автор Вебинара

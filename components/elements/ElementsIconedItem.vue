@@ -2,7 +2,7 @@
   <div class="if-item">
     <div class="if-item__icon-box">
       <component v-if="static" :is="iconName" :style="{fill: iconColor}" />
-      <img v-else :src="'http://95.163.236.196:1337' + iconName" alt="icon">
+      <img v-else :src="'https://dzhobava.com/server' + iconName" alt="icon">
     </div>
     <div class="if-item__text" v-html="text" />
   </div>
