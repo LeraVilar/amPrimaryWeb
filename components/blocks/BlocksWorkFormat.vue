@@ -15,7 +15,7 @@
             'work-format__item-image': true,
             'work-format__item-image_top': index === 1 || index === 4
           }"
-          :src="`_nuxt/static/images/workFormatHovers/${item.image}.png`"
+          :src="`@/assets/images/workFormatHovers/${item.image}.png`"
         />
         <div>
           <h3 class="work-format__item-title">
