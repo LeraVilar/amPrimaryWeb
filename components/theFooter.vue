@@ -94,7 +94,8 @@
       }
 
       return {
-        scrollToTop
+        scrollToTop,
+        link
       }
     }
 
