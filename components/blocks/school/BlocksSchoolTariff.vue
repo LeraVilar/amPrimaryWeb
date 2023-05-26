@@ -74,7 +74,8 @@
             <div class="school-tariff__price">
               {{ item?.costWithSupport }}
             </div>
-            <elements-buttons-primary title="Купить тариф" />
+            <elements-buttons-primary link="https://dzhobava.com/account/authentification?specs=products&page=fromSecond
+" title="Купить тариф" />
           </div>
           <div class="school-tariff__with-support-block">
           <div class="school-tariff__price-label">

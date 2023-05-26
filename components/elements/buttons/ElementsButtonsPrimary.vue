@@ -1,7 +1,7 @@
 <template>
-  <div class="button-primary">
+  <nuxt-link :to="link" class="button-primary">
     {{ title }}
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
@@ -10,6 +10,10 @@ export default {
     title: {
       type: String,
       default: 'title'
+    },
+    link: {
+      type: String,
+      default: '#'
     }
   }
 }

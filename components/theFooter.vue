@@ -18,9 +18,9 @@
             </h4>
           </div>
           <div class="academy-footer__media-container">
-            <svg-media-telegram class="academy-footer__media-icon" />
-            <svg-media-you-tube class="academy-footer__media-icon" />
-            <svg-media-whats-app class="academy-footer__media-icon" />
+            <nuxt-link to="tg://resolve?domain=dzhobavaeliso"><svg-media-telegram class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to="https://m.youtube.com/channel/UChKm2Hl94ja-jf9kW0HFj-g?tpclid=facebook.PAAabqZ3fMeqEMkhEeq3D8sQiLP-AEoEOewOOTY-FCDs08twiIF723bbyq2zk"><svg-media-you-tube class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to=""><svg-media-whats-app class="academy-footer__media-icon" /></nuxt-link>
           </div>
         </div>
       </div>

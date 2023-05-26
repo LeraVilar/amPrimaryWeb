@@ -421,6 +421,7 @@ const results = [
       text-align: left;
       font-weight: 700;
       margin: 0 0 40px 0;
+      max-width: 95%;
     }
 
     &__answer-item {

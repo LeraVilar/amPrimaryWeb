@@ -25,12 +25,21 @@ import { Fancybox } from '@fancyapps/ui/src/Fancybox/Fancybox'
 import '@fancyapps/ui/dist/fancybox.css'
 
   export default {
+
     setup () {
+      function useAsset(path) {
+        const assets = import.meta.glob('~/assets/**/*', {
+          eager: true,
+          import: 'default',
+        })
+        console.log(assets['/assets/' + path]);
+        return assets['/assets/' + path]
+      }
       function getArrIng () {
         const arrImg = [];
 
         for(let i = 1; i < 58; i++) {
-          arrImg.push({src: `_nuxt/assets/images/diploms/d${i}.jpeg`})
+          arrImg.push({src:  useAsset(`images/diploms/d${i}.jpeg`)})
         }
 
         return arrImg
