@@ -1,5 +1,5 @@
 <template>
-  <div class="reviews-block">
+  <div id="reviews" class="reviews-block">
     <h3 class="reviews-block__title">
       {{ heading }}
     </h3>

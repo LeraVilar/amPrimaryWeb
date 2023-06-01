@@ -262,4 +262,21 @@ import 'swiper/css/scrollbar';
       }
     }
   }
+
+  .nav-btn {
+    @media screen and (max-width: 680px) {
+      top: 25%;
+    }
+
+    @media screen and (max-width: 550px) {
+      top: 28.5%;
+    }
+  }
+
+  .main-swiper__text {
+    @media screen and (max-width: 680px) {
+      margin-bottom: 80px;
+    }
+
+  }
 </style>

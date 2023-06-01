@@ -26,7 +26,7 @@
         Статьи
       </nuxt-link>
       <nuxt-link
-        to="/"
+        to="/#reviews"
         class="academy-header__nav-link"
       >
         Отзывы
