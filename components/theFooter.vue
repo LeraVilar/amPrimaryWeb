@@ -71,13 +71,13 @@
       </div>
     </div>
     <div class="academy-footer__bottom">
-      <a style="color: #644c5c; text-decoration: none" :href="link + '/uploads/PUBLI_Ch_NA_Ya_OFERTA_0d52dc1276.pdf'" target="_blank" class="academy-footer__bottom-column">
+      <a style="color: #644c5c; text-decoration: none; width: 100%;" :href="link + '/uploads/PUBLI_Ch_NA_Ya_OFERTA_0d52dc1276.pdf'" target="_blank" class="academy-footer__bottom-column">
         Публичная оферта
       </a>
-      <a style="color: #644c5c; text-decoration: none" :href="link + '/uploads/Politika_obrabotki_personalnyh_dannyh_IP_Dzhobava_E_M_7e09d3b087.pdf'" target="_blank" class="academy-footer__bottom-column">
+      <a style="color: #644c5c; text-decoration: none; width: 100%;" :href="link + '/uploads/Politika_obrabotki_personalnyh_dannyh_IP_Dzhobava_E_M_7e09d3b087.pdf'" target="_blank" class="academy-footer__bottom-column">
         Политика персональных данных
       </a>
-      <div class="academy-footer__bottom-column">
+      <div style="width: 100%;" class="academy-footer__bottom-column">
         Разработка сайта
       </div>
     </div>

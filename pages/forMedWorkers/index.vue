@@ -32,7 +32,7 @@
     </elements-modals-keeper>
     <div class="overlay" v-if="isOpemAgreement">
       <div class="modal-agreement">
-        <svg-close-popup class="closePopup" @click="isOpemAgreement = false"/>
+        <svg-close-popup class="closePopup" @click="this.$router.back()"/>
         <h3 class="med-workers-page__modal-title">Данный информационный сайт предназначен исключительно для медицинских работников</h3>
         <p v-html="contentPopup?.text "></p>
         <div class="wrapperBtn">
