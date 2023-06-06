@@ -20,7 +20,7 @@
           <div class="academy-footer__media-container">
             <nuxt-link to="tg://resolve?domain=dzhobavaeliso"><svg-media-telegram class="academy-footer__media-icon" /></nuxt-link>
             <nuxt-link to="https://m.youtube.com/channel/UChKm2Hl94ja-jf9kW0HFj-g?tpclid=facebook.PAAabqZ3fMeqEMkhEeq3D8sQiLP-AEoEOewOOTY-FCDs08twiIF723bbyq2zk"><svg-media-you-tube class="academy-footer__media-icon" /></nuxt-link>
-            <nuxt-link to=""><svg-media-whats-app class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to="https://wa.me/79104168991"><svg-media-whats-app class="academy-footer__media-icon" /></nuxt-link>
           </div>
         </div>
       </div>

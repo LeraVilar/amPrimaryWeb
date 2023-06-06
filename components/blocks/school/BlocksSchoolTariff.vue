@@ -74,8 +74,7 @@
             <div class="school-tariff__price">
               {{ item?.costWithSupport }}
             </div>
-            <elements-buttons-primary link="https://dzhobava.com/account/authentification?specs=products&page=fromSecond
-" title="Купить тариф" />
+            <elements-buttons-primary :link="'https://dzhobava.com/account/authentification?specs=products&page=' + item.link" title="Купить тариф" />
           </div>
           <div class="school-tariff__with-support-block">
           <div class="school-tariff__price-label">
@@ -84,7 +83,7 @@
           <div class="school-tariff__price">
             {{ item?.costWithoutSupport }}
           </div>
-          <elements-buttons-secondary title="Купить тариф" />
+          <elements-buttons-secondary :link="'https://dzhobava.com/account/authentification?specs=products&page=' + item.link" title="Купить тариф" />
         </div>
         </div>
       </div>
@@ -141,6 +140,7 @@ const packages = [
     title: 'Полный курс для беременных',
     costWithSupport: '31.500 руб.',
     costWithoutSupport: '22.650 руб.',
+    link: 'fullCourse',
     program: [
       {
         label: 'Все уроки 5-ти блоков',
@@ -162,6 +162,7 @@ const packages = [
     title: 'Со 2 триместра',
     costWithSupport: '25.500 руб.',
     costWithoutSupport: '18.450 руб.',
+    link: 'fromSecond',
     program: [
       {
         label: 'Все уроки 4-х блоков',
@@ -189,6 +190,7 @@ const packages = [
     title: 'С 3 триместра',
     costWithSupport: '19.500 руб.',
     costWithoutSupport: '14.250 руб.',
+    link: 'fromThird',
     program: [
       {
         label: 'Все уроки 3-х блоков',
@@ -218,6 +220,7 @@ const packages = [
     title: 'Подготовка к родам',
     costWithSupport: '13.500 руб.',
     costWithoutSupport: '10.000 руб.',
+    link: 'beforeChildbirth',
     program: [
       {
         label: 'Все уроки 2-х блоков',
@@ -253,6 +256,7 @@ const packages = [
     title: 'После родов',
     costWithSupport: '7.900 руб.',
     costWithoutSupport: '6.150 руб.',
+    link: 'afterChildbirth',
     program: [
       {
         label: 'Все уроки блока «Послеродовый период»',

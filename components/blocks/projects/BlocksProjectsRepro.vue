@@ -40,7 +40,7 @@
             </div>
             <div v-html="item.text" class="project-block__what-inside-text">
             </div>
-            <!-- <svg-union class="project-block__what-inside-item-union" /> -->
+            
           </div>
         </div>
     </div>
@@ -60,8 +60,8 @@
       </div>
     </div>
     <div v-if="item.imgSpeaker.data" class="project-block__additional-block">
-      <!-- <div class="project-block__additional-left-column"> -->
-        <img class="project-block__additional-avatar" src="@/assets/images/ConsultationsPageDescPhoto.png" />
+      
+        <img class="project-block__additional-avatar" :src="'https://dzhobava.com/server' + item.imgSpeaker.data.attributes.url" />
         <h3 class="project-block__additional-left-text">
           {{ item.flowStartText }}
         </h3>
@@ -78,19 +78,6 @@
         <elements-buttons-secondary title="Записаться в лист ожидания" />
       </a>
     </div>
-      <!-- <div class="project-block__additional-right-column">
-        <h3 class="project-block__additional-right-title">
-          Старт третьего потока — январь 2023
-        </h3>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSemeWdP_plcFlkOOFZ2NL5hMcyMMN9bWW2pc4OZkgZcLow8pA/viewform?usp=sharing"
-          class="project-block__additional-button-container"
-        >
-          <elements-buttons-secondary title="Записаться в лист ожидания" />
-        </a>
-        <svg-almost-circle class="project-block__additional-almost-circle"/>
-      </div> -->                                                                            
-    <!-- </div> -->
     <div v-if="item.listTags" class="wrapper-tags">
       <div class="project-block__additional-left-column">
         <div v-if="item.listTags?.prevTagFlow" class="project-block__what-inside-title">
@@ -112,7 +99,7 @@
       </div>
       <div class="project-block__additional-right-column">
         <h3 class="project-block__additional-right-title">
-          Оставьте заявку, чтобы первыми узнать о старте потока в новом году
+          {{item.titleBtnFlows}}
         </h3>
         <a
           :href="item.linkBtnFlows"
@@ -431,6 +418,7 @@ export default {
       background: #ECE7E1;
       border-radius: 15px;
       padding: 40px;
+      margin: 20px 0;
     }
 
     &__what-inside-title {
