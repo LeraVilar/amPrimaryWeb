@@ -68,7 +68,7 @@
     </div>
     <div v-if="!item.listTags" class="project-block__additional-block2">
       <h3 class="project-block__additional-right-title">
-        Старт третьего потока — январь 2023
+        {{item.titleBtnFlows}}
       </h3>
       <a
         :href="item.linkBtnFlows"
