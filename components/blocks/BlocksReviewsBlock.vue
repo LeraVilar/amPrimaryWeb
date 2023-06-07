@@ -335,4 +335,8 @@ let el = ref(null)
       max-width: 410px;
     }
   }
+<<<<<<< HEAD
 </style>
+=======
+</style>
+>>>>>>> 9e04a7c (added reviews filter)

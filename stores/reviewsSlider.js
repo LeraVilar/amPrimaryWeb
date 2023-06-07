@@ -1,4 +1,3 @@
-import { defineStore } from 'pinia'
 
 export const useReviewsSlider = defineStore('reviewsSlider', {
   state: () => ({
