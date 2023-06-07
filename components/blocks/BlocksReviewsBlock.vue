@@ -75,6 +75,10 @@ import 'swiper/css'
 const optionsArray = [
   {
     key: '',
+    label: 'Все отзывы'
+  },
+  {
+    key: 'school',
     label: 'Отзывы Школа беременных'
   },
   {
@@ -86,15 +90,15 @@ const optionsArray = [
     label: 'Проект «Мено»'
   },
   {
-    key: 'consumptionGuide',
+    key: 'guide',
     label: 'Гайд по питанию'
   },
   {
-    key: 'webinars',
+    key: 'webinarsPreparation',
     label: 'Вебинары по подготовке'
   },
   {
-    key: 'webinarsAnalise',
+    key: 'webinarsanalise',
     label: 'Вебинар «Анализы и обследования во время беременности»'
   },
   {
@@ -143,7 +147,7 @@ let el = ref(null)
       const currSelected = ref(optionsArray[0])
       const heightDetails = ref(null)
       const wrapperSlider = ref(null)
-      store.fetchDataReviewsSlider()
+      
       let posScroll = 0;
       
       heightDetails.value = [...store.getReviewsSlider]
@@ -155,6 +159,10 @@ let el = ref(null)
             element.nextSibling?.classList.add('_active')
           }
         })
+      })
+
+      onMounted(() => {
+        store.fetchDataReviewsSlider()
       })
       onUpdated(() => {
         wrapperSlider.value.childNodes[0].children[0].style.transform = ''
@@ -168,8 +176,7 @@ let el = ref(null)
         }
       })
       function update (value) {
-        store.filterReviews(value?.key)
-        currSelected.value = value
+        store.fetchDataReviewsSlider(value?.key)
       }
 
       const prevRev = ref(null);
