@@ -75,7 +75,7 @@
         class="project-block__additional-button-container"
         target="_blank"
       >
-        <elements-buttons-secondary title="Записаться в лист ожидания" />
+        <elements-buttons-secondary :title="item.titleButtonRec" />
       </a>
     </div>
     <div v-if="item.listTags" class="wrapper-tags">
@@ -106,7 +106,7 @@
           class="project-block__additional-button-container"
           target="_blank"
         >
-          <elements-buttons-secondary title="Записаться в лист ожидания" />
+          <elements-buttons-secondary :title="item.titleButtonRec" />
         </a>
         <svg-plus-icon class="project-block__additional-plus-icon"/>
       </div>
