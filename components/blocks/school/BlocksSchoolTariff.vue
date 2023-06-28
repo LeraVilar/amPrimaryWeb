@@ -106,7 +106,7 @@
             <div class="school-tariff__price">
               {{ trimester?.cost }}
             </div>
-            <elements-buttons-secondary title="Купить тариф" />
+            <elements-buttons-secondary :link="'https://dzhobava.com/account/?specs=webinars&page=' + trimester.link" title="Купить тариф" />
           </div>
         </div>
         <div class="school-tariff__trimester-right-column">
@@ -125,7 +125,7 @@
             <div class="school-tariff__price">
               {{ trimester?.cost }}
             </div>
-            <elements-buttons-secondary title="Купить тариф" />
+            <elements-buttons-secondary :link="'https://dzhobava.com/account/?specs=webinars&page=' + trimester.link" title="Купить тариф" />
           </div>
         </div>
       </div>
@@ -296,6 +296,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: '1 триместр',
     cost: '5.000 руб.',
+    link: '1-trimestr-MTU=',
     program: [
       {
         label: 'Все уроки из 1-ого блока «1 триместр»'
@@ -326,6 +327,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: '2 триместр',
     cost: '5.000 руб.',
+    link: '2-trimestr-MTU=',
     program: [
       {
         label: 'Уроки из 1-ого блока «1 триместр»',
@@ -371,6 +373,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: '3 триместр',
     cost: '5.000 руб.',
+    link: '3-trimestr-MTU=',
     program: [
       {
         label: 'Уроки из 1-ого блока «1 триместр»',
@@ -424,6 +427,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: 'Роды',
     cost: '5.000 руб.',
+    link: 'rody-MTg=',
     program: [
       {
         label: 'Уроки из 4-ого блока «Подготовка к родам»',
