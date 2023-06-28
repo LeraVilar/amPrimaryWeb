@@ -74,7 +74,7 @@
             <div class="school-tariff__price">
               {{ item?.costWithSupport }}
             </div>
-            <elements-buttons-primary :link="'https://dzhobava.com/account?specs=products&page=' + item.link" title="Купить тариф" />
+            <elements-buttons-primary :link="'https://dzhobava.com/account/?specs=products&page=' + item.link" title="Купить тариф" />
           </div>
           <div class="school-tariff__with-support-block">
           <div class="school-tariff__price-label">
@@ -83,7 +83,7 @@
           <div class="school-tariff__price">
             {{ item?.costWithoutSupport }}
           </div>
-          <elements-buttons-secondary :link="'https://dzhobava.com/account?specs=products&page=' + item.link" title="Купить тариф" />
+          <elements-buttons-secondary :link="'https://dzhobava.com/account/?specs=products&page=' + item.link" title="Купить тариф" />
         </div>
         </div>
       </div>

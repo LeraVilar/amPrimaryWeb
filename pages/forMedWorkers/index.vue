@@ -15,7 +15,7 @@
       </h4>
       <ul class="med-workers-page__modal-list">
         <li v-for="(item, i) in currentModalData?.popupMed.About.split('—').slice(1, -1)" :key="i" class="med-workers-page__modal-item">
-          {{ item }}
+          <span v-html="item"></span>
         </li>
       </ul>
       <div class="med-workers-page__author-block">
