@@ -8,7 +8,9 @@
     <div class="popup-content">
       <h3>Вы узнаете:</h3>
       <ul>
-        <li v-for="(itemList, i) in data[indexForPopup]?.popupProgram?.About?.split('—').slice(1, -1)" :key="i"><p>{{itemList}}</p></li>
+        <li v-for="(itemList, i) in data[indexForPopup]?.popupProgram?.About?.split('—').slice(1)" :key="i">
+          <span v-html="itemList"></span>
+        </li>
       </ul>
     </div>
   </elements-popup>

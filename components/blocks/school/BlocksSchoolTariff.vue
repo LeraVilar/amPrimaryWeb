@@ -327,7 +327,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: '2 триместр',
     cost: '5.000 руб.',
-    link: '2-trimestr-MTU=',
+    link: '2-trimestr-MTY=',
     program: [
       {
         label: 'Уроки из 1-ого блока «1 триместр»',
@@ -373,7 +373,7 @@ const trimesters = [
     label: 'доступ на 4 месяца',
     title: '3 триместр',
     cost: '5.000 руб.',
-    link: '3-trimestr-MTU=',
+    link: '3-trimestr-MTc=',
     program: [
       {
         label: 'Уроки из 1-ого блока «1 триместр»',

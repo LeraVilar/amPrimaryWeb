@@ -1,7 +1,7 @@
 <template>
   <div class="button-secondary" :style="calculateStyles">
     <div v-if="!link">{{ title }}</div>
-    <a v-else :href="link">{{ title }}</a>
+    <a v-else target="_blank" :href="link">{{ title }}</a>
   </div>
 </template>
 

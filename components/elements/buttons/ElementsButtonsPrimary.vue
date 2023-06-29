@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="link" class="button-primary">
+  <nuxt-link target="_blank" :to="link" class="button-primary">
     {{ title }}
   </nuxt-link>
 </template>
