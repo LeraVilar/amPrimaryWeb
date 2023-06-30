@@ -13,7 +13,7 @@
             По телефону или написать в WhatsApp
           </div>
           <div class="how-to-block__media-box">
-            <a href="https://wa.me/+79162964571">
+            <a href="https://wa.me/79869944798">
               <svg-media-phone class="how-to-block__media-icon" />
             </a>
             <svg-media-whats-app class="how-to-block__media-icon" />

@@ -9,7 +9,7 @@
     </div>
     <div class="sign-up-block__button-container">
       <div class="sign-up-block__button">
-        <a href="https://wa.me/+79162964571">Записаться</a>
+        <a href="https://wa.me/79869944798">Записаться</a>
       </div>
     </div>
     <svg-almost-circle class="sign-up-block__almost-circle" />
