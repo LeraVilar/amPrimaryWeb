@@ -126,6 +126,8 @@ const descriptionItems = [
       width: 100%;
       background: #ECE7E1;
       padding: 60px;
+      max-height: 90vh;
+      overflow: auto;
 
       @media screen and (max-width: 690px) {
         padding: 30px;
