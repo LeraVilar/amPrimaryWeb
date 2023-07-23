@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-export const useSliderComand = defineStore('popupStore', {
+export const useSliderComand = defineStore('sliderComand', {
   state: () => ({
     dataSliderComand: []
   }),

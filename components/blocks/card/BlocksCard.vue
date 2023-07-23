@@ -20,12 +20,12 @@
       <blocks-img-card :link="item.image.data.attributes.url"/>
     </div>
     <div class="content">
-      <!-- <p>2 pdf-файла для скачивания</p> -->
+      
       <h2>{{ item.heading }}</h2>
       <p class="title-card">{{ item?.text }}</p>
       <button @click="dataPopup?.setIsOpen" @click.native="indexForPopup = index" class="details">Подробнее</button>
       <elements-button-green :isLink="true">Скачать бесплатно</elements-button-green>
-      <!-- <p>Бесплатно при покупке любого пакета «Школы <a>беременности»</a> </p> -->
+      
     </div>
   </div>
 </template>

@@ -31,7 +31,24 @@
       >
         Отзывы
       </nuxt-link>
+      <a href="/account" style="text-decoration: none; color:unset;" class="lk-login">
+        <svg style="margin-right: 10px;" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.00039 7.30525C9.06571 7.30525 10.74 5.66991 10.74 3.65262C10.74 1.63534 9.06571 0 7.00039 0C4.93507 0 3.2608 1.63534 3.2608 3.65262C3.2608 5.66991 4.93507 7.30525 7.00039 7.30525Z" fill="#064848"/>
+          <path d="M14 13.9998H0V13.3497C0 10.208 2.60748 7.66113 5.82398 7.66113H8.17601C11.3925 7.66113 14 10.208 14 13.3497V13.9998Z" fill="#064848"/>
+        </svg>
+        <span>Личный кабинет</span>
+      </a>
     </div>
+    <div class="lk-login-mobile">
+      <a href="/account">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20" fill="#064848"/>
+<path d="M20.0003 20.3052C22.0656 20.3052 23.7399 18.6699 23.7399 16.6526C23.7399 14.6353 22.0656 13 20.0003 13C17.935 13 16.2607 14.6353 16.2607 16.6526C16.2607 18.6699 17.935 20.3052 20.0003 20.3052Z" fill="#FEF8F2"/>
+<path d="M27 26.9998H13V26.3497C13 23.208 15.6075 20.6611 18.824 20.6611H21.176C24.3925 20.6611 27 23.208 27 26.3497V26.9998Z" fill="#FEF8F2"/>
+</svg>
+
+        
+      </a>
     <div class="academy-header__mobile-menu-button" @click="switchMenu">
       <div class="academy-header__mobile-menu-button-part" />
       <div class="academy-header__mobile-menu-button-part" />
@@ -69,7 +86,10 @@
       >
         Отзывы
       </nuxt-link>
+      
     </div>
+  </div>
+
   </header>
 </template>
 
@@ -93,6 +113,15 @@
 </script>
 
 <style lang="scss" scoped>
+  .lk-login-mobile {
+    display: none;
+    @media screen and (max-width: 681px) {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+    }
+        }
   .academy-header {
     height: 85px;
     border-bottom: 1px solid #C5B1B2;
