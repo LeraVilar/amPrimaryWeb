@@ -17,17 +17,13 @@
             О чем поговорим?
           </h4>
           <ul class="guides__modal-list">
-            <li v-for="(item, i) in currentModalData?.popupGuide.About.split('—').slice(1, -1)" :key="i" class="guides__modal-item">
-              {{ item }}
-            </li>
+            <li class="guides__modal-item" v-html="currentModalData?.popupGuide.About"></li>
           </ul>
           <div v-if="currentModalData?.guideEats">
             <h3 class="guides__modal-title">
             {{ currentModalData?.guideEats.title }}
           </h3>
-          <div class="guides__modal-label">
-            {{ currentModalData?.guideEats.About }}
-          </div>
+          <div class="guides__modal-label" v-html="currentModalData?.guideEats.About"></div>
           </div>
           <div v-for="(item, i) in currentModalData?.authorGuide" :key="i" class="guides__author-block">
             <img class="guides__author-image" :src="'https://dzhobava.com/server' + item.avatar.data.attributes.url" />
@@ -234,11 +230,11 @@ export default {
       list-style: none;
       padding: 0;
 
-      li {
-        &::before {
-          content: '—'
-        }
-      }
+      // li {
+      //   &::before {
+      //     content: '—'
+      //   }
+      // }
     }
 
     &__modal-item {

@@ -39,6 +39,7 @@
             :href="item.linkBtnFlows"
             class="project-block__additional-button-container"
             target="_blank"
+            style="text-decoration: none;"
           >
           <div class="workers-list__purchase-button">
             Купить программу
