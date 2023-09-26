@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "nuxt": "3.0.0"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
     "swiper": "^9.0.4",
-    "vue-yandex-maps": "^1.0.7"
+    "vue-yandex-maps": "^1.0.7",
+    "yandex-metrika-module-nuxt3": "^1.5.3"
   }
 }
