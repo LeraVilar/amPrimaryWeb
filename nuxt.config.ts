@@ -29,6 +29,7 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  
   css: [
     '@/assets/scss/_base.scss',
     '@/assets/scss/_fonts.scss'
@@ -44,6 +45,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
+      gtmContainerId: 'GTM-MPR69XNG',
       gtm: {
         id: 'GTM-MPR69XNG',
         queryParams: {
