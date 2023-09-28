@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxt/image-edge',
+    '@zadigetvoltaire/nuxt-gtm',
     [
       'yandex-metrika-module-nuxt3',
       {
