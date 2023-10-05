@@ -14,8 +14,8 @@
         О чем поговорим?
       </h4>
       <ul class="med-workers-page__modal-list">
-        <li v-for="(item, i) in currentModalData?.popupMed.About.split('—').slice(1, -1)" :key="i" class="med-workers-page__modal-item">
-          <span v-html="item"></span>
+        <li  class="med-workers-page__modal-item">
+          <span v-html="currentModalData?.popupMed.About"></span>
         </li>
       </ul>
       <div class="med-workers-page__author-block">
@@ -180,9 +180,9 @@ const descriptionItems = [
       list-style: none;
       padding: 0;
 
-      li::before {
-        content: '—';
-      }
+      // li::before {
+      //   content: '—';
+      // }
     }
 
     &__modal-item {
