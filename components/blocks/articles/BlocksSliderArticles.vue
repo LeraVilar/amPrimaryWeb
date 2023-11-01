@@ -1,5 +1,5 @@
 <template>
-  <h2 class="heading">Научные статьи</h2>
+  <h2 class="heading" id="science-articles">Научные статьи</h2>
   <div class="swiper-container">
     <swiper
     class="swiper"

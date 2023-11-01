@@ -1,5 +1,5 @@
 <template>
-  <div class="if-you-block">
+  <div class="if-you-block" id="if-you-block">
     <h1 class="if-you-block__title">
       Что важно знать перед записью на консультацию
     </h1>

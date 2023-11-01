@@ -1,5 +1,5 @@
 <template>
-  <div class="about-intro">
+  <div class="about-intro" id="about-intro">
     <div class="about-intro__left-column">
       <div class="about-intro__label">
         ОСНОВАТЕЛЬНИЦА АКАДЕМИИ

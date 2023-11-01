@@ -1,5 +1,5 @@
 <template>
-  <div class="main-media-articles__header">
+  <div class="main-media-articles__header" id="main-media-articles__header">
       <h2 class="heading">Статьи в СМИ</h2>
       <nuxt-link to="/articles" class="main-media-articles__show-more-button">
         Смотреть все статьи

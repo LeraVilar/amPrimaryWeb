@@ -1,6 +1,6 @@
 <template>
   <div class="suggestions">
-    <h1 class="suggestions__title">
+    <h1 class="suggestions__title" id="suggestions__title">
       Что мы предлагаем?
     </h1>
     <div class="suggestions__cards-block">

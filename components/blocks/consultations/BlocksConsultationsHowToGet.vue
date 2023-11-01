@@ -1,5 +1,5 @@
 <template>
-  <div class="consultations-map__address-box">
+  <div class="consultations-map__address-box" id="consultations-map__address-box">
     <h2 class="consultations-map__title">
       Как добраться до клиники
     </h2>

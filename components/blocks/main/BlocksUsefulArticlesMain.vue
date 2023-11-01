@@ -1,6 +1,6 @@
 <template>
   <div class="wrapperHeader">
-      <h2 class="heading  usefulMedia">Полезные статьи</h2>
+      <h2 class="heading  usefulMedia" id="usefulMedia">Полезные статьи</h2>
       <nuxt-link to="/articles" class="main-articles__show-more-button">
         Смотреть все статьи
         <svg-arrow-right class="main-articles__arrow-right" />

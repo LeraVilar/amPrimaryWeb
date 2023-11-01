@@ -1,7 +1,7 @@
 <template>
   <div class="projects-page">
     <div class="projects-page__page-navigation-block">
-      <h2 class="projects-page__title">
+      <h2 class="projects-page__title" id="project-block__about-title-3">
         Проекты
       </h2>
       <div class="projects-page__page-navigations-list">

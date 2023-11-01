@@ -1,5 +1,5 @@
 <template>
-  <div class="workers-list">
+  <div class="workers-list" id="workers-list">
     <h2 v-if="med" class="workers-list__title">
       Специалистам и медработникам
     </h2>

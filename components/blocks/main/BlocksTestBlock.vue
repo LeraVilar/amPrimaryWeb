@@ -1,5 +1,5 @@
 <template>
-  <div class="test-block">
+  <div class="test-block" id="test-block">
     <h3 class="test-block__title">
       Ответьте на несколько вопросов, и мы подберем для вас подходящий продукт
     </h3>

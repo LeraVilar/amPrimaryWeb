@@ -19,7 +19,7 @@
       </div>
     </div>
   </div>
-  <div class="webinars-list">
+  <div class="webinars-list" id="webinars-list">
     <div :id="linkTransform.methods.linkTransform(item.attributes.heading)" v-for="(item, index) in webinars.getDataWebinars" :key="index" class="webinars-list__card">
       <div class="webinars-list__card-wrapper-img">
         <div class="discount" v-if="item.attributes.discount"><span>На {{ item.attributes.discount }}% выгоднее</span></div>

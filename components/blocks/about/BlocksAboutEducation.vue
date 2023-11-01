@@ -1,5 +1,5 @@
 <template>
-  <div class="about-education">
+  <div class="about-education" id="about-education">
     <h2 class="about-education__title">
       Образование
     </h2>

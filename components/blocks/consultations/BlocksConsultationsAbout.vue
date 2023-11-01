@@ -1,5 +1,5 @@
 <template>
-  <div  class="consultations-about">
+  <div  class="consultations-about" id="consultations-about">
     <div class="consultations-about__main-block">
       <div class="consultations-about__left-column">
         <div class="consultations-about__position">

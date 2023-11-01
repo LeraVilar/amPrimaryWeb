@@ -1,7 +1,7 @@
 <template>
   <div class="project-block">
     <div class="project-block__about">
-      <h2 class="project-block__about-title">
+      <h2 class="project-block__about-title" id="project-block__about-title-4">
         Персонализированный проект «Мено — оживи яичники»
       </h2>
       <div class="project-block__about-text">

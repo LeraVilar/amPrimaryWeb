@@ -1,5 +1,5 @@
 <template>
-  <div class="consultations-intro">
+  <div class="consultations-intro" id="consultations-intro">
     <h2 class="consultations-intro__title">
       Консультации
     </h2>

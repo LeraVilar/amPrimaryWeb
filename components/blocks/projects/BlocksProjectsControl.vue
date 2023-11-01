@@ -1,7 +1,7 @@
 <template>
   <div class="project-block">
     <div class="project-block__about">
-      <h2 class="project-block__about-title">
+      <h2 class="project-block__about-title" id="project-block__about-title-2">
         Персонализированный проект «Контроль эстрогенов»
       </h2>
       <div class="project-block__about-text">

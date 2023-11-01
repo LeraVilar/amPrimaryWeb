@@ -1,5 +1,5 @@
 <template>
-  <div class="school-intro-block__container">
+  <div class="school-intro-block__container" id="school-intro-block__container">
     <svg-arrow class="school-intro-block__arrow" />
     <svg-star-nine class="school-intro-block__star" />
     <svg-heart-icon class="school-intro-block__heart" />

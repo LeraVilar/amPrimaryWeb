@@ -1,7 +1,7 @@
 <template>
   <div class="school-video">
     <div class="school-video__left-column">
-      <h2 class="school-video__title">
+      <h2 class="school-video__title" id="school-video__title>
         Посмотрите ознакомительное видео о Школе беременных
       </h2>
       <div class="school-video__text">

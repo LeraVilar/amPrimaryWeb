@@ -1,5 +1,5 @@
 <template>
-  <div class="about-science-works">
+  <div class="about-science-works" id="about-science-works">
     <h2 class="about-science-works__title">
       Научные работы и патенты
     </h2>

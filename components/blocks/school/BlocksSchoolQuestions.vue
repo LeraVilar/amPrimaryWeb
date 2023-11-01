@@ -1,6 +1,6 @@
 <template>
   <div class="school-questions-block">
-    <h2 class="school-questions-block__title">
+    <h2 class="school-questions-block__title" id="school-questions-block__title">
       Вопросы и ответы
     </h2>
     <elements-collapse-secondary class="school-questions-block__collapse" title="Я оплатила один из тарифов. Что дальше?">

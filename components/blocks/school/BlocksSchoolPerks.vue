@@ -1,6 +1,6 @@
 <template>
   <div class="school-perks">
-    <h2 class="school-perks__title">
+    <h2 class="school-perks__title" id="school-perks__title">
       Все женщины, вступившие в Школу беременных, становятся участницами закрытого сообщества, где:
     </h2>
     <div class="school-perks__list">

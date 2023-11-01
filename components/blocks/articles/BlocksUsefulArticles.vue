@@ -1,5 +1,5 @@
 <template>
-  <h2 class="heading  usefulMedia">Полезные статьи</h2>
+  <h2 class="heading  usefulMedia" id="useful-articles">Полезные статьи</h2>
   <div class="wrapper">
     <div v-for="(item, index) in store.getUsefulData" :key="index" class="cardArticles">
       <img :src="`https://dzhobava.com/server${item.image?.data[0].attributes?.url}`"/>

@@ -1,5 +1,5 @@
-<template>
-  <div class="guides-intro">
+<template> 
+  <div class="guides-intro" id="guides-intro">
     <svg-heart-icon class="heartIcon" />
     <svg-plus-icon class="plusIcon"/>
     <img src="~assets/images/fotocircle.png" class="fotoCircle" alt="" />

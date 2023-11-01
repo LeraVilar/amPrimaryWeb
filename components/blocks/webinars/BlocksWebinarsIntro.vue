@@ -1,6 +1,6 @@
 <template>
   <div class="webinars-intro">
-    <h2 class="webinars-intro__title">
+    <h2 class="webinars-intro__title" id="webinars-intro__title">
       Вебинары для девушек и женщин
     </h2>
     <div class="webinars-intro__text">

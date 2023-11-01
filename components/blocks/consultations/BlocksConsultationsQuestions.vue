@@ -1,5 +1,5 @@
 <template>
-  <div class="questions-block">
+  <div class="questions-block" id="questions-block">
     <h2 class="questions-block__title">
       Вопросы и ответы
     </h2>

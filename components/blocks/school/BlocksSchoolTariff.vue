@@ -1,6 +1,6 @@
 <template>
   <div class="school-tariff">
-    <h2 class="school-tariff__title">
+    <h2 class="school-tariff__title" id="school-tariff__title">
       Тарифы
     </h2>
     <div class="school-tariff__tabs-wrapper">

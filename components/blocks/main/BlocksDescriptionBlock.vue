@@ -1,5 +1,5 @@
 <template>
-  <div  class="main-description">
+  <div  class="main-description" id="main-description">
     <div class="main-description__main-block">
       <div class="main-description__left-column">
         <div class="main-description__position">

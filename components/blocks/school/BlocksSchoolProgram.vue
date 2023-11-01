@@ -1,6 +1,6 @@
 <template>
   <div class="school-program">
-    <h2 class="school-program__title">
+    <h2 class="school-program__title" id="school-program__title">
       Программа
     </h2>
     <elements-collapse v-for="(item, i) in tabs" :key="i" class="school-program__required-collapse" :title="item.title">

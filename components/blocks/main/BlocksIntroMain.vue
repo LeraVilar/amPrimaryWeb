@@ -1,5 +1,5 @@
 <template>
-  <div class="intro-block__container">
+  <div class="intro-block__container" id="intro-block__container">
     <div class="intro-block__figures-block-left">
       <svg-star class="intro-block__figures-star" />
       <svg-union class="intro-block__figures-union" />

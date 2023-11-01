@@ -1,7 +1,7 @@
 <template>
   <div class="school-nav">
     <div class="school-nav__left-column">
-      <h2 class="school-nav__title">
+      <h2 class="school-nav__title" id="school-nav__title">
         Школа беременных — это пространство для беременных женщин и мам в послеродовом периоде
       </h2>
       <div class="school-nav__tags-list">

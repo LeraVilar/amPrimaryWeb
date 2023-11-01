@@ -1,5 +1,5 @@
 <template>
-  <div class="about-directions">
+  <div class="about-directions" id="about-directions">
     <h2 class="about-directions__title">
       Направления работы
     </h2>
