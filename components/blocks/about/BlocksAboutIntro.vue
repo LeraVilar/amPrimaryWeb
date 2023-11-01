@@ -38,7 +38,7 @@ import '@fancyapps/ui/dist/fancybox.css'
       function getArrIng () {
         const arrImg = [];
 
-        for(let i = 1; i < 58; i++) {
+        for(let i = 1; i < 61; i++) {
           arrImg.push({src:  useAsset(`images/diploms/d${i}.jpeg`)})
         }
 
