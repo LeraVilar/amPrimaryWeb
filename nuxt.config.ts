@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   plugins: [
-    { src: '~/plugins/ymapPlugin.js', mode: 'client' }
+    { src: '~/plugins/ymapPlugin.js', mode: 'client' },
+    { src: '~/plugins/router.scrollBehaviour.js', mode: 'client' }
   ],
   modules: [
     '@nuxt/image-edge',

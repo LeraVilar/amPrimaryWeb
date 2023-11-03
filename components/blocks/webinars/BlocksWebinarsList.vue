@@ -77,8 +77,13 @@ import linkTransform from '~~/components/scripts/ConvertsAnchor';
     },
     setup() {
         const webinars = useWebinarsStore();
-        onBeforeMount(() => {
-          webinars.fetchDataWebinars()
+        const route = useRoute()
+        onBeforeMount(async () => {
+          await webinars.fetchDataWebinars()
+          if(route.hash) {
+            const targetElement = document.querySelector(route.hash);
+            targetElement.scrollIntoView()
+          }
         })
       return {
         linkTransform,
