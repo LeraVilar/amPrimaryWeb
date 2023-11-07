@@ -8,7 +8,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       router.afterEach(async (to, from) => {
         if (to.hash) {
           console.log(to.hash)
-          window.onload = () => {
+          document.onload = () => {
             setTimeout(() => {
               
               const targetElement = document.querySelector(to.hash);
