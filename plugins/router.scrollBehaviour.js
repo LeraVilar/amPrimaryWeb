@@ -20,7 +20,7 @@ export default defineNuxtPlugin((nuxtApp) => {
               });
               return;
             }
-          }, 2000);
+          }, 4000);
         }
   
         window.scrollTo({ top: 0, behavior: "smooth" });
