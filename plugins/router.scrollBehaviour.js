@@ -8,7 +8,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       router.afterEach(async (to, from) => {
         if (to.hash) {
           console.log(to.hash)
-          document.onload = () => {
+          document.addEventListener('load', () => {
             setTimeout(() => {
               
               const targetElement = document.querySelector(to.hash);
@@ -23,7 +23,7 @@ export default defineNuxtPlugin((nuxtApp) => {
               }
             }, 2000);
 
-          }
+          })
         }
   
         window.scrollTo({ top: 0, behavior: "smooth" });
