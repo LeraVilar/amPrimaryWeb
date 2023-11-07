@@ -7,17 +7,24 @@ export default defineNuxtPlugin((nuxtApp) => {
       console.log(route)
       if (route.hash) {
           console.log(to.hash)
-          
           setTimeout(() => {
-                
             const targetElement = document.querySelector(route.hash);
-    
             if (targetElement) {
+              if(window.innerWidth < 1200) {
+                let scrollTop = window.pageYOffset || targetElement.scrollTop
+                const headerOutsideIframe = window.parent.document.getElementsByClassName('academy-header')[0].clientHeight
+                const finalOffset = targetElement.getBoundingClientRect().top + scrollTop + headerOutsideIframe
+                window.parent.scrollTo({
+                  top: finalOffset,
+                  behavior: 'auto'
+                })
+              }else {
                 targetElement.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
                 inline: "nearest",
               });
+              }
               return;
             }
           }, 3000);
