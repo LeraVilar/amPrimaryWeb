@@ -3,31 +3,35 @@ import { defineNuxtPlugin } from "#app";
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.$router.options.scrollBehavior = async (to, from, savedPosition) => {
     if (typeof window !== "undefined") {
-      const router = useRouter();
-  
-      router.afterEach(async (to, from) => {
-        if (to.hash) {
+      const route = useRoute();
+      console.log(route)
+      if (route.hash) {
           console.log(to.hash)
-          window.addEventListener('load', () => {
-            setTimeout(() => {
-              
-              const targetElement = document.querySelector(to.hash);
-      
-              if (targetElement) {
-                  targetElement.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                  inline: "nearest",
-                });
-                return;
-              }
-            }, 2000);
-
-          })
-        }
+          
+          setTimeout(() => {
+                
+            const targetElement = document.querySelector(route.hash);
+    
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+              });
+              return;
+            }
+          }, 3000);
+          
+      }
+      // router.afterEach(async (to, from) => {
+      //   if (to.hash) {
+      //     console.log(to.hash)
+          
+          
+      //   }
   
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
+      //   window.scrollTo({ top: 0, behavior: "smooth" });
+      // });
     }
   };
 })
