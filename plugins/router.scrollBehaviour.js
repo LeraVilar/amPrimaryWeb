@@ -7,6 +7,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       console.log(route)
       if (route.hash) {
           console.log(to.hash)
+          
           setTimeout(() => {
             const targetElement = document.querySelector(route.hash);
             if (targetElement) {
