@@ -28,7 +28,7 @@ export default defineNuxtPlugin((nuxtApp) => {
               }
               return;
             }
-          }, 3000);
+          }, 1000);
           
       }
       // router.afterEach(async (to, from) => {
