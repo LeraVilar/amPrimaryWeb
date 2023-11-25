@@ -30,6 +30,9 @@ export default defineNuxtPlugin((nuxtApp) => {
             }
           }, 1000);
           
+      }else {
+        window.scrollTo({top: 0,
+          behavior: 'auto' })
       }
       // router.afterEach(async (to, from) => {
       //   if (to.hash) {
