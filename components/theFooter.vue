@@ -77,7 +77,7 @@
       <a style="color: #644c5c; text-decoration: none; width: 100%;" :href="link + '/uploads/Politika_obrabotki_personalnyh_dannyh_IP_Dzhobava_E_M_42ef36e3d9.pdf'" target="_blank" class="academy-footer__bottom-column">
         Политика персональных данных
       </a>
-      <a href="https://lsd-agency.ru" style="width: 100%;" class="academy-footer__bottom-column">
+      <a href="https://minimasneva.com/?ysclid=ltr3ssungm820287069" style="width: 100%;" class="academy-footer__bottom-column">
         Разработка сайта
       </a>
     </div>
