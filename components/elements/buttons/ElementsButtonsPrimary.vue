@@ -1,7 +1,10 @@
 <template>
-  <nuxt-link target="_blank" :to="link" class="button-primary">
+  <nuxt-link v-if="isLink === true" target="_blank" :to="link" class="button-primary">
     {{ title }}
   </nuxt-link>
+  <button v-else class="button-primary">
+    {{ title }}
+  </button>
 </template>
 
 <script>
@@ -14,6 +17,10 @@ export default {
     link: {
       type: String,
       default: '#'
+    },
+    isLink: {
+      type: Boolean,
+      default: true
     }
   }
 }
