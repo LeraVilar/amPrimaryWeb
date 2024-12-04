@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="work-format__item-link">
-          Подробнее
+          {{ item.btn ? item.btn : Подробнее }}
           <svg-arrow-right class="work-format__item-arrow" />
         </div>
       </router-link>
@@ -53,37 +53,43 @@ const tabs = [
     title: 'Вебинары',
     text: 'Структурированные материалы, которые дадут максимум информации по важным вопросам',
     image: '1',
-    link: '/webinars'
+    link: '/webinars',
+    btn: 'Подробнее'
   },
   {
     title: 'Школа беременных и мам',
     text: 'Всё, что нужно знать о материнстве, подготовке, сложностях процесса и многом другом',
     image: '2',
-    link: '/school'
+    link: '#',
+    btn: 'Раздел на реконструкции'
   },
   {
     title: 'Гайды и методички',
     text: 'Небольшие и полезные сборники с прикладными советами',
     image: '3',
-    link: '/guides'
+    link: '/guides',
+    btn: 'Подробнее'
   },
   {
     title: 'Персонализированные проекты',
     text: 'Индивидуально разработанные программы по восстановлению женского здоровья',
     image: '4',
-    link: '/projects'
+    link: '/projects',
+    btn: 'Подробнее'
   },
   {
     title: 'Специалистам и медработникам',
     text: 'Обучающие продукты, позволяющие перенять опыт и знания специалиста международного уровня',
     image: '5',
-    link: '/forMedWorkers'
+    link: '/forMedWorkers',
+    btn: 'Подробнее'
   },
   {
     title: 'Консультации',
     text: 'Очная или онлайн работа со специалистом',
     image: '6',
-    link: '/consultations'
+    link: '/consultations',
+    btn: 'Подробнее'
   }
 ]
 

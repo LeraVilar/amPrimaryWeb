@@ -18,9 +18,9 @@
             </h4>
           </div>
           <div class="academy-footer__media-container">
-            <nuxt-link to="tg://resolve?domain=dzhobavaeliso"><svg-media-telegram class="academy-footer__media-icon" /></nuxt-link>
-            <nuxt-link to="https://m.youtube.com/channel/UChKm2Hl94ja-jf9kW0HFj-g?tpclid=facebook.PAAabqZ3fMeqEMkhEeq3D8sQiLP-AEoEOewOOTY-FCDs08twiIF723bbyq2zk"><svg-media-you-tube class="academy-footer__media-icon" /></nuxt-link>
-            <nuxt-link to="https://wa.me/79104168991"><svg-media-whats-app class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to="https://t.me/academ_mom_bot" target="_blank"><svg-media-telegram class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to="https://m.youtube.com/channel/UChKm2Hl94ja-jf9kW0HFj-g?tpclid=facebook.PAAabqZ3fMeqEMkhEeq3D8sQiLP-AEoEOewOOTY-FCDs08twiIF723bbyq2zk" target="_blank"><svg-media-you-tube class="academy-footer__media-icon" /></nuxt-link>
+            <nuxt-link to="https://wa.me/79104168991" target="_blakn"><svg-media-whats-app class="academy-footer__media-icon" /></nuxt-link>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@
           <router-link class="academy-footer__column-item" to="/projects">
             Персонализированные проекты
           </router-link>
-          <router-link class="academy-footer__column-item" to="/school">
+          <router-link class="academy-footer__column-item disabled" to="#">
             Школа беременных и мам
           </router-link>
           <router-link class="academy-footer__column-item" to="/forMedWorkers">
@@ -306,6 +306,16 @@
       @media screen and (max-width: 680px) {
         flex-direction: column;
       }
+    }
+  }
+    .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    user-select: none;
+    &:hover {
+      color: unset;
+      cursor: default;
+      
     }
   }
 </style>
