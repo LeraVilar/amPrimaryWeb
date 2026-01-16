@@ -2,52 +2,55 @@
   <div class="project-block">
     <div class="project-block__about">
       <h2 class="project-block__about-title" id="project-block__about-title-1">
-        Проект «Академия здоровой жизни»
+        Проект «Территория здоровья»
       </h2>
       <div class="project-block__about-text">
-        Реорганизация популярного проекта “Рождение венеры”. Для тех, кто готов работать со своим здоровьем системно вместе с профессором Джобава Элисо
+        Реорганизация популярного проекта “Рождение венеры”. Для тех, кто готов
+        работать со своим здоровьем системно вместе с профессором Джобава Элисо
       </div>
       <svg-soft-icon class="project-block__about-soft-icon" />
       <svg-union class="project-block__about-union-icon" />
       <svg-half-circle class="project-block__about-half-circle-icon" />
     </div>
     <div class="project-block__description-block">
-      <img class="project-block__description-image" src="@/assets/images/projectsAcademyDesc.png" />
+      <img
+        class="project-block__description-image"
+        src="@/assets/images/projectsAcademyDesc.png"
+      />
       <h2 class="project-block__block-title">
-        Проект — это единая пошаговая серия тематических потоков, посвященная всем сторонам женского здоровья,
-        которая работает как инструкция к собственному организму
+        Проект — это единая пошаговая серия тематических потоков, посвященная
+        всем сторонам женского здоровья, которая работает как инструкция к
+        собственному организму
       </h2>
     </div>
     <div class="project-block__what-inside-block">
-      <h2 class="project-block__block-title">
-        Что внутри?
-      </h2>
+      <h2 class="project-block__block-title">Что внутри?</h2>
       <div class="project-block__what-inside-list">
         <div class="project-block__what-inside-item">
           <div class="project-block__what-inside-title">
             Отдельный Telegram-чат
           </div>
           <div class="project-block__what-inside-text">
-            В течение 2-х недель в закрытом Telegram-канале будут выходить актуальные стратегические посты,
-            посвященные конкретному аспекту здоровья
+            В течение 2-х недель в закрытом Telegram-канале будут выходить
+            актуальные стратегические посты, посвященные конкретному аспекту
+            здоровья
           </div>
         </div>
         <div class="project-block__what-inside-item">
-          <div class="project-block__what-inside-title">
-            Удобный формат
-          </div>
+          <div class="project-block__what-inside-title">Удобный формат</div>
           <div class="project-block__what-inside-text">
-            Вся информация в одном месте. Информация об обследовании перед каждым потоком — для максимальной
-            безопасности каждой участницы. Универсальные схемы и добавки — аналоги можно подобрать в любой стране мира
+            Вся информация в одном месте. Информация об обследовании перед
+            каждым потоком — для максимальной безопасности каждой участницы.
+            Универсальные схемы и добавки — аналоги можно подобрать в любой
+            стране мира
           </div>
         </div>
         <div class="project-block__what-inside-item">
-          <div class="project-block__what-inside-title">
-            Персонализация
-          </div>
+          <div class="project-block__what-inside-title">Персонализация</div>
           <div class="project-block__what-inside-text">
-            На каждом потоке будет день ответов на вопросы, когда можно будет обратиться лично
-            к доктору медицинских наук профессору акушеру-гинекологу Джобава Элисо Мурмановне
+            На каждом потоке будет день ответов на вопросы, когда можно будет
+            обратиться лично к доктору медицинских наук профессору
+            акушеру-гинекологу Джобава Элисо Мурмановне
           </div>
         </div>
       </div>
@@ -55,21 +58,14 @@
     <div class="project-block__additional-block">
       <div class="project-block__additional-left-column">
         <div class="project-block__what-inside-title">
-          В 2023 году<br> планируется 4 потока
+          В 2023 году<br />
+          планируется 4 потока
         </div>
         <div class="project-block__tags-list">
-          <div class="project-block__tag">
-            Стресс и эмоциональное здоровье
-          </div>
-          <div class="project-block__tag">
-            Здоровье ЖКТ
-          </div>
-          <div class="project-block__tag">
-            Печень и системы детоксикации
-          </div>
-          <div class="project-block__tag">
-            Нутритивные дефициты
-          </div>
+          <div class="project-block__tag">Стресс и эмоциональное здоровье</div>
+          <div class="project-block__tag">Здоровье ЖКТ</div>
+          <div class="project-block__tag">Печень и системы детоксикации</div>
+          <div class="project-block__tag">Нутритивные дефициты</div>
         </div>
       </div>
       <div class="project-block__additional-right-column">
@@ -95,7 +91,7 @@
   &__about {
     position: relative;
     padding: 80px 0;
-    background: #C5B1B2;
+    background: #c5b1b2;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -108,7 +104,7 @@
   }
 
   &__about-title {
-    color: #FEF8F2;
+    color: #fef8f2;
     font-size: 38px;
     max-width: 500px;
 
@@ -125,12 +121,12 @@
     font-size: 16px;
     line-height: 24px;
     max-width: 500px;
-    color: #FEF8F2;
+    color: #fef8f2;
   }
 
   &__about-soft-icon {
     position: absolute;
-    fill: #644C5C;
+    fill: #644c5c;
     top: 100px;
     left: 50px;
 
@@ -146,7 +142,7 @@
 
   &__about-union-icon {
     position: absolute;
-    fill: #644C5C;
+    fill: #644c5c;
     bottom: 80px;
     right: -20px;
     transform: scale(2);
@@ -158,7 +154,7 @@
 
   &__about-half-circle-icon {
     position: absolute;
-    fill: #78353E;
+    fill: #78353e;
     left: 40px;
     top: 40px;
     transform: scale(4);
@@ -175,7 +171,7 @@
   }
 
   &__block-title {
-    color: #644C5C;
+    color: #644c5c;
     font-size: 38px;
     line-height: 130%;
     margin: 0;
@@ -210,7 +206,7 @@
 
   &__what-inside-item {
     position: relative;
-    background: #ECE7E1;
+    background: #ece7e1;
     border-radius: 15px;
     padding: 40px;
   }
@@ -219,7 +215,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #78353E;
+    color: #78353e;
     margin: 0 0 15px 0;
     font-family: Oswald;
   }
@@ -244,14 +240,14 @@
 
   &__additional-left-column,
   &__additional-right-column {
-    width: calc((100% - 120px)/2);
+    width: calc((100% - 120px) / 2);
     @media screen and (max-width: 1200px) {
       width: 100%;
     }
   }
 
   &__additional-left-text {
-    color: #644C5C;
+    color: #644c5c;
     font-size: 32px;
     line-height: 130%;
     margin: 30px 0 0 0;
@@ -287,7 +283,7 @@
   }
 
   &__additional-right-title {
-    color: #FEF8F2;
+    color: #fef8f2;
     font-size: 26px;
     line-height: 34px;
     max-width: 70%;
@@ -310,10 +306,10 @@
   }
 
   &__tag {
-    background-color: #644C5C;
+    background-color: #644c5c;
     padding: 5px 15px;
     border-radius: 23px;
-    color: #FEF8F2;
+    color: #fef8f2;
     font-size: 16px;
     margin: 0 10px 10px 0;
     white-space: nowrap;
@@ -323,7 +319,7 @@
     }
 
     &.disabled {
-      background-color: #C5B1B2;
+      background-color: #c5b1b2;
     }
   }
 
