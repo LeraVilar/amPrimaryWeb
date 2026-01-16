@@ -1,25 +1,31 @@
 <template>
-  <div  class="consultations-about" id="consultations-about">
+  <div class="consultations-about" id="consultations-about">
     <div class="consultations-about__main-block">
       <div class="consultations-about__left-column">
-        <div class="consultations-about__position">
-          ОСНОВАТЕЛЬНИЦА АКАДЕМИИ
-        </div>
         <h2 class="consultations-about__title">
-          Я, Элисо Джобава, и моя команда проводим онлайн и очные консультации в клинике Кредэ Эксперто, г. Москва
+          Я, Элисо Джобава, и моя команда проводим консультации в клинике Кредэ
+          Эксперто, г. Москва
         </h2>
         <ul class="consultations-about__list">
           <li class="consultations-about__list-item">
-            Каждый врач гинеколог команды — это мой ученик и профессионал высокого уровня. Каждый имеет свою
-            специализацию и любимые темы, обладает всеми необходимыми навыками и собственными “фишками”. Всё лечение мы строим совместно под моим контролем.
+            Каждый врач гинеколог команды — это мой ученик и профессионал
+            высокого уровня. Каждый имеет свою специализацию и любимые темы,
+            обладает всеми необходимыми навыками и собственными “фишками”. Всё
+            лечение мы строим совместно под моим контролем.
           </li>
           <li class="consultations-about__list-item">
-            В команде <b>5 врачей гинекологов и 5 врачей других специальностей</b> — остеопат, ЛОР, эндокринолог, уролог-андролог, флеболог.
+            В команде
+            <b>5 врачей гинекологов и 5 врачей других специальностей</b> —
+            остеопат, ЛОР, эндокринолог, уролог-андролог, флеболог.
           </li>
         </ul>
       </div>
       <div class="consultations-about__right-column">
-        <img class="consultations-about__image" src="@/assets/images/ConsultationsPageDescPhoto.png" alt="" />
+        <img
+          class="consultations-about__image"
+          src="@/assets/images/ConsultationsPageDescPhoto.png"
+          alt=""
+        />
         <svg-arrow class="consultations-about__image-arrow-figure" />
         <svg-soft-icon class="consultations-about__image-soft-figure" />
       </div>
@@ -72,7 +78,7 @@
   }
 
   &__title {
-    color: #644C5C;
+    color: #644c5c;
     font-weight: 700;
     font-size: 32px;
     line-height: 130%;
@@ -110,7 +116,7 @@
       top: 5px;
       width: 25px;
       height: 15px;
-      content: '';
+      content: "";
       background-image: url("assets/images/arrow-right.png");
       background-repeat: no-repeat;
     }
@@ -125,9 +131,8 @@
     }
   }
 
-
   &__image-arrow-figure {
-    fill: #C99D7A;
+    fill: #c99d7a;
     position: absolute;
     left: 0;
     top: 0;

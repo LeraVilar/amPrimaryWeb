@@ -1,5 +1,5 @@
 <template>
-  <div  class="minor-description">
+  <div class="minor-description">
     <div class="minor-description__main-block">
       <div class="minor-description__left-column">
         <div class="minor-description__position">
@@ -9,7 +9,11 @@
           {{ title }}
         </h2>
         <ul class="minor-description__list">
-          <li v-for="(item, i) in listItems" :key="i" class="minor-description__list-item">
+          <li
+            v-for="(item, i) in listItems"
+            :key="i"
+            class="minor-description__list-item"
+          >
             {{ item }}
           </li>
         </ul>
@@ -20,10 +24,14 @@
         </div>
       </div>
       <div class="minor-description__right-column">
-        <img class="minor-description__image" src="@/assets/images/MainPageDescriptionImageMinor.png" alt="" />
+        <img
+          class="minor-description__image"
+          src="@/assets/images/MainPageDescriptionImageMinor.png"
+          alt=""
+        />
         <svg-half-circle class="minor-description__image-circle-figure" />
         <svg-heart-icon class="minor-description__image-heart-figure" />
-        <svg-arrow  class="minor-description__image-arrow-figure" />
+        <svg-arrow class="minor-description__image-arrow-figure" />
         <svg-gex class="minor-description__image-gex-figure" />
       </div>
     </div>
@@ -31,32 +39,31 @@
 </template>
 
 <script>
-
-  export default {
-    props: {
-      label: {
-        type: String,
-        default: 'ОСНОВАТЕЛЬНИЦА АКАДЕМИИ'
-      },
-      title: {
-        type: String,
-        default: 'Элисо Джобава — врач-акушер высшей категории, профессор, доктор медицинских наук'
-      },
-      listItems: {
-        type: Array,
-        default: () => [
-          'Международный эксперт по ведению осложнённой беременности',
-          'Специалист по невынашиванию беременности, патологии системы гемостаза и тромбофилиям',
-          'Специалист по подготовке и ведению «зрелой» беременности (35+)'
-        ]
-      }
-    }
-  }
+export default {
+  props: {
+    label: {
+      type: String,
+      default: "",
+    },
+    title: {
+      type: String,
+      default:
+        "Элисо Джобава — врач-акушер высшей категории, профессор, доктор медицинских наук",
+    },
+    listItems: {
+      type: Array,
+      default: () => [
+        "Международный эксперт по ведению осложнённой беременности",
+        "Специалист по невынашиванию беременности, патологии системы гемостаза и тромбофилиям",
+        "Специалист по подготовке и ведению «зрелой» беременности (35+)",
+      ],
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 .minor-description {
-
   &__main-block {
     display: flex;
 
@@ -97,7 +104,7 @@
   }
 
   &__title {
-    color: #644C5C;
+    color: #644c5c;
     font-weight: 700;
     font-size: 32px;
     line-height: 130%;
@@ -127,7 +134,7 @@
       top: 5px;
       width: 25px;
       height: 15px;
-      content: '';
+      content: "";
       background-image: url("assets/images/arrow-right.png");
       background-repeat: no-repeat;
     }
@@ -139,11 +146,10 @@
     @media screen and (max-width: 550px) {
       width: 100%;
     }
-
   }
 
   &__image-circle-figure {
-    fill: #C5B1B2;
+    fill: #c5b1b2;
     position: absolute;
     transform: scale(3);
     right: 40px;
@@ -161,7 +167,7 @@
   }
 
   &__image-heart-figure {
-    fill: #C99D7A;
+    fill: #c99d7a;
     position: absolute;
     transform: rotate(70deg);
     right: 0;
@@ -196,7 +202,7 @@
   }
 
   &__image-gex-figure {
-    fill: #644C5C;
+    fill: #644c5c;
     position: absolute;
     right: -40px;
     bottom: 12%;
@@ -216,7 +222,7 @@
   &__button {
     font-size: 18px;
     font-weight: 600;
-    color: #FEF8F2;
+    color: #fef8f2;
     padding: 18px 45px;
     background: #064848;
     border-radius: 5px;
