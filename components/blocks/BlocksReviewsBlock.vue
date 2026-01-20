@@ -177,7 +177,7 @@ export default {
             element.nextSibling?.classList.add("_active");
           }
         });
-      }
+      },
     );
 
     onMounted(() => {

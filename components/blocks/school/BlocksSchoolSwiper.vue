@@ -1,7 +1,7 @@
 <template>
   <div class="main-swiper">
     <h1 class="main-swiper__title" id="main-swiper__title">
-      Эксперты Школу беременных
+      Эксперты обучения беременных
     </h1>
     <div class="main-swiper__swiper-block">
       <swiper

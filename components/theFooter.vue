@@ -5,7 +5,7 @@
         <nuxt-link to="/" class="academy-footer__logo-wrapper">
           <img
             class="academy-footer__logo"
-            src="~assets/images/logo.svg"
+            src="~assets/images/logo.png"
             alt=""
           />
         </nuxt-link>

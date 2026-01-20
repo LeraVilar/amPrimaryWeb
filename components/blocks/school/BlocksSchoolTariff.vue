@@ -62,7 +62,7 @@
               <svg-info-icon class="school-tariff__info-icon" />
               <div class="school-tariff__tooltip">
                 <b>
-                  Те, кто вступит в Школу беременных на пакеты с обратной
+                  Те, кто вступит в вебинар для беременных на пакеты с обратной
                   связью, получат дополнительные привелегии </b
                 ><br /><br />
                 — Общение и поддержку от других будущих мам в закрытом чате<br /><br />
@@ -539,7 +539,9 @@ export default {
     display: flex;
     align-items: flex-end;
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
+    transition:
+      background-color 0.2s,
+      color 0.2s;
 
     &:first-child {
       margin: 0 40px 0 0;
