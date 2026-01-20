@@ -1,16 +1,34 @@
 <template>
   <div class="school-questions-block">
-    <h2 class="school-questions-block__title" id="school-questions-block__title">
+    <h2
+      class="school-questions-block__title"
+      id="school-questions-block__title"
+    >
       Вопросы и ответы
     </h2>
-    <elements-collapse-secondary class="school-questions-block__collapse" title="Я оплатила один из тарифов. Что дальше?">
-      В Личном кабинете у вас откроется доступ ко всем материалам оплаченного тарифа. Вы сможете изучать информацию в
-      любом темпе. Доступ будет действовать со дня оплаты столько, сколько предусматривает тариф.
+    <elements-collapse-secondary
+      class="school-questions-block__collapse"
+      title="Я оплатила один из тарифов. Что дальше?"
+    >
+      В Личном кабинете у вас откроется доступ ко всем материалам оплаченного
+      тарифа. Вы сможете изучать информацию в любом темпе. Доступ будет
+      действовать со дня оплаты столько, сколько предусматривает тариф.
     </elements-collapse-secondary>
-    <elements-collapse-secondary class="school-questions-block__collapse" title="Если вдруг беременность прервется, мне придется заново оплачивать школу?">
-      Доступ к материалам останется у вас бессрочно до момента, пока вы не станете мамой, также мы бесплатно предоставляем доступ к вебинару «Что делать, если были потери беременности? Правильные шаги на пути к счастливому материнству» и чек-лист “Реабилитация после потери беременности”, чтобы помочь провести наиболее быструю и адекватную реабилитацию после потери.
+    <elements-collapse-secondary
+      class="school-questions-block__collapse"
+      title="Если вдруг беременность прервется, мне придется заново оплачивать продукт?"
+    >
+      Доступ к материалам останется у вас бессрочно до момента, пока вы не
+      станете мамой, также мы бесплатно предоставляем доступ к вебинару «Что
+      делать, если были потери беременности? Правильные шаги на пути к
+      счастливому материнству» и чек-лист “Реабилитация после потери
+      беременности”, чтобы помочь провести наиболее быструю и адекватную
+      реабилитацию после потери.
     </elements-collapse-secondary>
-    <elements-collapse-secondary class="school-questions-block__collapse" title="Есть ли возможность рассрочки?">
+    <elements-collapse-secondary
+      class="school-questions-block__collapse"
+      title="Есть ли возможность рассрочки?"
+    >
       Нет, мы не предоставляем рассрочку.
     </elements-collapse-secondary>
   </div>
@@ -21,7 +39,7 @@
   width: 100%;
 
   &__title {
-    color: #644C5C;
+    color: #644c5c;
     font-size: 38px;
     margin: 0 0 40px 0;
 
@@ -36,7 +54,7 @@
 
   &__collapse {
     &:last-child {
-      border-bottom:  1px solid #C5B1B2;
+      border-bottom: 1px solid #c5b1b2;
     }
   }
 }

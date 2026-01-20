@@ -41,7 +41,11 @@ export default {
     function getArrIng() {
       const arrImg = [];
 
+<<<<<<< HEAD
+      for (let i = 1; i < 64; i++) {
+=======
       for (let i = 1; i < 63; i++) {
+>>>>>>> main
         arrImg.push({ src: useAsset(`images/diploms/d${i}.jpeg`) });
       }
 
