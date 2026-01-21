@@ -25,7 +25,7 @@
             Цикл вебинаров по беременности
           </router-link>
           <router-link class="academy-footer__column-item" to="/forMedWorkers">
-            Специалистам и медработникам
+            Специалистам
           </router-link>
           <router-link class="academy-footer__column-item" to="/consultations">
             Консультации
