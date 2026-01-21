@@ -1,16 +1,6 @@
 <template>
   <div class="sign-up-block" id="sign-up-block">
-<<<<<<< HEAD
     <h2 class="sign-up-block__title">Технические работы</h2>
-=======
-    <h2 class="sign-up-block__title">
-      Ученицы Школы беременных имеют приоритет в записи на прием к профессору
-      Элисо Джобава и врачам ее команды в клинике
-    </h2>
->>>>>>> main
-    <div class="sign-up-block__text">
-      <!-- Укажите этот момент при заполнении анкеты -->
-    </div>
     <!-- <div class="sign-up-block__button-container">
       <div class="sign-up-block__button">
         <a href="https://wa.me/79015316670">Записаться</a>
