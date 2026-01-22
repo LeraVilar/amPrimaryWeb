@@ -30,7 +30,7 @@
           <router-link class="academy-footer__column-item" to="/consultations">
             Консультации
           </router-link>
-          <router-link class="academy-footer__column-item" to="/guides">
+          <router-link class="academy-footer__column-item disabled" to="#">
             Гайды и методички
           </router-link>
           <router-link class="academy-footer__column-item" to="/webinars">
