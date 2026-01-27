@@ -62,7 +62,7 @@
     </div>
     <div class="academy-footer__bottom">
       <a
-        style="color: #644c5c; text-decoration: none; width: 100%"
+        style="color: #644c5c; text-decoration: none; width: fit-content"
         :href="
           link +
           '/uploads/Dogovor_oferty_PDF_redakt_77de520822.pdf?updated_at=2026-01-16T14:52:18.849Z'
@@ -73,7 +73,7 @@
         Публичная оферта
       </a>
       <a
-        style="color: #644c5c; text-decoration: none; width: 100%"
+        style="color: #644c5c; text-decoration: none; width: fit-content"
         :href="
           link +
           '/uploads/Soglasie_na_obrabotku_dekabr_2025_1_redakt_15_01_2026_versiya_3_d27681c56b.pdf?updated_at=2026-01-16T14:53:05.180Z'
@@ -84,7 +84,7 @@
         Политика персональных данных
       </a>
       <a
-        style="color: #644c5c; text-decoration: none; width: 100%"
+        style="color: #644c5c; text-decoration: none; width: fit-content"
         :href="
           link +
           '/uploads/Soglasie_na_rassylku_0f4b9f7a84.pdf?updated_at=2026-01-16T14:52:44.972Z'
@@ -95,7 +95,7 @@
         Согласие на рассылку
       </a>
       <a
-        style="color: #644c5c; text-decoration: none; width: 100%"
+        style="color: #644c5c; text-decoration: none; width: fit-content"
         :href="
           link +
           '/uploads/Politika_konfediczialnosti_redakt_versiya_1_2dc4d76b62.pdf?updated_at=2026-01-16T14:53:16.555Z'
@@ -104,13 +104,6 @@
         class="academy-footer__bottom-column"
       >
         Политика
-      </a>
-      <a
-        href="https://minimasneva.com/?ysclid=ltr3ssungm820287069"
-        style="width: 100%"
-        class="academy-footer__bottom-column"
-      >
-        Разработка сайта
       </a>
     </div>
   </footer>
@@ -160,7 +153,7 @@ export default {
     padding: 30px 45px 0 0;
     border-top: 1px solid #c5b1b2;
     display: flex;
-    justify-content: right;
+    gap: 24px;
 
     @media screen and (max-width: 1200px) {
       justify-content: left;
