@@ -105,6 +105,13 @@
       >
         Политика
       </a>
+      <a
+        href="https://lsd-agency.ru/"
+        style="width: fit-content"
+        class="academy-footer__bottom-column"
+      >
+        Разработка сайта
+      </a>
     </div>
   </footer>
 </template>
