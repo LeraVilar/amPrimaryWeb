@@ -1,6 +1,7 @@
 section-container
 <template>
   <div class="section-container">
+    <blocks-intro-main />
     <div class="work-format__message-us-block">
       <svg-almost-circle class="work-format__almost-circle" />
       <svg-union class="work-format__union" />
@@ -8,9 +9,8 @@ section-container
       <svg-plus-icon class="work-format__plus" />
       <h2 class="work-format__message-us-title">Полезно для каждой женщины</h2>
       <p class="work-format__message-us-text">
-        Разбираю женское здоровье простым языком.<br />
-        Подписывайтесь на мой канал — там больше полезной информации и ответов
-        на частые вопросы.
+        Разбираю женское здоровье простым языком. <br />
+        Подписывайтесь на мой канал — там больше полезной информации.
       </p>
       <div class="work-format__message-us-button-container">
         <elements-buttons-secondary
@@ -19,7 +19,6 @@ section-container
         />
       </div>
     </div>
-    <blocks-intro-main />
     <blocks-description-block class="section-block" />
   </div>
   <!-- <div class="background-violet section-block">
@@ -65,6 +64,7 @@ section-container
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 50px;
 
     @media screen and (max-width: 1200px) {
       width: 680px;
@@ -86,7 +86,7 @@ section-container
   }
 
   &__message-us-text {
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
     color: #fef8f2;
     font-size: 16px;
