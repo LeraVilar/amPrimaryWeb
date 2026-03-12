@@ -5,8 +5,15 @@
         Проекты
       </h2>
       <div class="projects-page__page-navigations-list">
-        <nuxt-link v-for="item in  storeProjects.getProjects" :to="'/projects#' + linkTransform?.methods?.linkTransform(item.nameProject)" class="projects-page__navigation-item">
-          {{item.nameProject.slice(item.nameProject.search('«') + 1, -1)}}
+        <nuxt-link
+          v-for="item in storeProjects.getProjects"
+          :to="
+            '/projects#' +
+            linkTransform?.methods?.linkTransform(item.nameProject)
+          "
+          class="projects-page__navigation-item"
+        >
+          {{ item.nameProject.replace(/[«»]/g, "") }}
         </nuxt-link>
       </div>
     </div>
@@ -14,22 +21,21 @@
 </template>
 
 <script>
-import linkTransform from '~~/components/scripts/ConvertsAnchor';
+import linkTransform from "~~/components/scripts/ConvertsAnchor";
 
 export default {
   props: {
     storeProjects: {
       type: Object,
-      default: null
-    }
+      default: null,
+    },
   },
   setup() {
     return {
-      linkTransform
-    }
-  }
-
-}
+      linkTransform,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -47,7 +53,7 @@ export default {
   }
 
   &__title {
-    color: #644C5C;
+    color: #644c5c;
     font-size: 38px;
     margin: 0;
   }
@@ -73,8 +79,8 @@ export default {
     border-radius: 23px;
     margin: 0 10px 10px 0;
     cursor: pointer;
-    transition: background-color .2s;
-    color: #FFF;
+    transition: background-color 0.2s;
+    color: #fff;
     text-decoration: none;
 
     &:hover {
