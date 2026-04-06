@@ -42,9 +42,6 @@
           <router-link class="academy-footer__column-item" to="/about">
             Об основательнице
           </router-link>
-          <router-link class="academy-footer__column-item" to="/articles">
-            Полезные материалы
-          </router-link>
           <router-link
             class="academy-footer__column-item"
             to="/articles/#mediaArticles"
