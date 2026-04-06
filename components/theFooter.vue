@@ -21,8 +21,8 @@
           <router-link class="academy-footer__column-item" to="/projects">
             Персонализированные проекты
           </router-link>
-          <router-link class="academy-footer__column-item disabled" to="#">
-            Цикл вебинаров по беременности
+          <router-link class="academy-footer__column-item" to="/school">
+            Все о беременности и как ее достичь
           </router-link>
           <router-link class="academy-footer__column-item" to="/forMedWorkers">
             Специалистам
@@ -30,8 +30,8 @@
           <router-link class="academy-footer__column-item" to="/consultations">
             Консультации
           </router-link>
-          <router-link class="academy-footer__column-item disabled" to="#">
-            Гайды и методички
+          <router-link class="academy-footer__column-item" to="/articles">
+            Полезные бесплатные материалы
           </router-link>
           <router-link class="academy-footer__column-item" to="/webinars">
             Вебинары
