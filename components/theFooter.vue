@@ -21,9 +21,9 @@
           <router-link class="academy-footer__column-item" to="/projects">
             Персонализированные проекты
           </router-link>
-          <router-link class="academy-footer__column-item" to="/school">
+          <!-- <router-link class="academy-footer__column-item" to="/school">
             Все о беременности и как ее достичь
-          </router-link>
+          </router-link> -->
           <router-link class="academy-footer__column-item" to="/forMedWorkers">
             Специалистам
           </router-link>
