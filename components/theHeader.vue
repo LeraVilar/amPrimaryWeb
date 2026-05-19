@@ -17,6 +17,14 @@
         Отзывы
       </nuxt-link>
       <a
+        href="https://docs.google.com/document/d/1W4lp12yPfIKZggwAvVbjoWDO0RhHF-faUOxB8IFQuM8/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="academy-header__nav-link"
+      >
+        Навигация
+      </a>
+      <a
         href="/account"
         style="text-decoration: none; color: unset"
         class="lk-login"
@@ -56,7 +64,7 @@
             fill="#FEF8F2"
           />
           <path
-            d="M27 26.9998H13V26.3497C13 23.208 15.6075 20.6611 18.824 20.6611H21.176C24.3925 20.6611 27 23.208 27 26.3497V26.9998Z"
+            d="M27 26.9998H13V26.3497C13 23.208 15.6075 20.6611 18.824 20.6611H21.176C24.3925 20.6611 27 26.3497V26.9998Z"
             fill="#FEF8F2"
           />
         </svg>
@@ -83,7 +91,17 @@
         <nuxt-link to="/articles" class="academy-header__nav-link">
           Статьи
         </nuxt-link>
-        <nuxt-link to="/" class="academy-header__nav-link"> Отзывы </nuxt-link>
+        <nuxt-link to="/" class="academy-header__nav-link">
+          Отзывы
+        </nuxt-link>
+        <a
+          href="https://docs.google.com/document/d/1W4lp12yPfIKZggwAvVbjoWDO0RhHF-faUOxB8IFQuM8/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="academy-header__nav-link"
+        >
+          Навигация
+        </a>
       </div>
     </div>
   </header>
@@ -129,13 +147,8 @@ export default {
   }
 
   &__logo-wrapper {
-    width: 140px;
-    height: 60px;
+    height: inherit;
 
-    @media screen and (max-width: 680px) {
-      width: 100px;
-      height: 40px;
-    }
   }
 
   &__nav-menu {
@@ -145,18 +158,8 @@ export default {
   }
 
   &__logo {
-    width: 140px;
-    height: 58px;
-
-    @media screen and (max-width: 1200px) {
-      width: 120px;
-      height: 50px;
-    }
-
-    @media screen and (max-width: 680px) {
-      width: 105px;
-      height: 44px;
-    }
+    aspect-ratio: 1/1;
+    height: 100%;
   }
 
   &__nav-link {

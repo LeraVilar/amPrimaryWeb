@@ -10,7 +10,7 @@
       <h3 class="message-us__message-us-title" v-html="label" />
       <div class="message-us__message-us-button-container">
         <elements-buttons-secondary
-          link="https://t.me/academ_mom_bot"
+          link="https://t.me/elisodzhobava_bot"
           title="Написать в Telegram"
         />
       </div>

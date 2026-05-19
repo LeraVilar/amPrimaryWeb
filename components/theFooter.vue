@@ -183,8 +183,7 @@ export default {
 
   &__logo-wrapper {
     width: 180px;
-    height: 74px;
-    margin: 0 0 30px 0;
+    aspect-ratio: 1/1;
 
     @media screen and (max-width: 1200px) {
       flex-direction: column;
