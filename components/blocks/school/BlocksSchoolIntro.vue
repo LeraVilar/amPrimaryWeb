@@ -7,13 +7,15 @@
       <img
         src="@/assets/images/school/starImage.png"
         class="school-intro-block__figures-rectangle-image"
-      >
+      />
     </div>
     <h1 class="school-intro-block__title">
-      Школа беременных — место, где будущие<br> мамы обретают спокойствие
+      Цикл вебинаров по беременности — место, где будущие<br />
+      мамы обретают спокойствие
     </h1>
     <div class="school-intro-block__text">
-      Здесь вы получите новые знания и будете чувствовать себя уверенно в любой ситуации
+      Здесь вы получите новые знания и будете чувствовать себя уверенно в любой
+      ситуации
     </div>
     <nuxt-link to="/school#schoolProgram">
       <elements-buttons-secondary title="Подробнее" />
@@ -23,12 +25,11 @@
 
 <style lang="scss" scoped>
 .school-intro-block {
-
   &__container {
     width: 100%;
     position: relative;
     padding: 80px 0;
-    background-color: #C5B1B2;
+    background-color: #c5b1b2;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -47,7 +48,7 @@
   }
 
   &__title {
-    color: #FEF8F2;
+    color: #fef8f2;
     font-size: 38px;
     line-height: 138%;
     text-align: center;
@@ -60,11 +61,10 @@
   &__text {
     max-width: 500px;
     text-align: center;
-    color: #FEF8F2;
+    color: #fef8f2;
     font-size: 16px;
     line-height: 24px;
   }
-
 
   &__figures-block-left,
   &__figures-block-right {
@@ -106,7 +106,7 @@
 
   &__arrow {
     position: absolute;
-    fill: #644C5C;
+    fill: #644c5c;
     transform: rotate(40deg);
     top: 20px;
     left: -60px;
@@ -131,10 +131,9 @@
 
   &__star {
     position: absolute;
-    fill: #FEF8F2;
+    fill: #fef8f2;
     bottom: 20px;
     right: 110px;
   }
-
 }
 </style>

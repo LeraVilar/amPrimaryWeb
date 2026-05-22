@@ -10,35 +10,30 @@
         </h4>
         <div class="how-to-block__step-item-content">
           <div class="how-to-block__step-item-text">
-            По телефону или написать в WhatsApp
+            <a href="https://t.me/AssistentDzhobava" target="_blank"
+              >Телеграмм: @AssistentDzhobava</a
+            >
+            <br />
+            <a href="tel:+79869944798">Телефон: +79869944798</a> <br />
+            <a href="mailto:dzhobava@c-experto.ru"
+              >Почта: dzhobava@c-experto.ru</a
+            >
           </div>
           <div class="how-to-block__media-box">
-            <a href="https://wa.me/79869944798">
-              <svg-media-phone class="how-to-block__media-icon" />
-            </a>
-            <svg-media-whats-app class="how-to-block__media-icon" />
+            <nuxt-link to="https://t.me/AssistentDzhobava" target="_blank">
+              <svg-media-telegram class="how-to-block__media-icon" />
+            </nuxt-link>
           </div>
         </div>
       </div>
       <div class="how-to-block__step-item">
         <h4 class="how-to-block__step-item-title">
-          2. Вам предложат заполнить анкету
+          2. Встреча со специалистом
         </h4>
         <div class="how-to-block__step-item-content">
           <div class="how-to-block__step-item-text">
-            На основании ситуации, описанной в анкете, доктор Элисо примет вас лично или направит к одному из профильных
-            врачей команды. Если вам нужен другой специалист (не гинеколог), то ассистенты предоставят вам контакты
-          </div>
-        </div>
-      </div>
-      <div class="how-to-block__step-item">
-        <h4 class="how-to-block__step-item-title">
-          3. Встреча со специалистом
-        </h4>
-        <div class="how-to-block__step-item-content">
-          <div class="how-to-block__step-item-text">
-            В назначенное время вы встретитесь со специалистом очно в клинике <b>Крэде Эксперто.</b>
-            Информацию по онлайн консультации вам предоставит ассистент, когда уточнит все детали.
+            В назначенное время вы встретитесь со специалистом в клинике
+            <b>Крэде Эксперто.</b>
           </div>
         </div>
       </div>
@@ -47,88 +42,90 @@
 </template>
 
 <style lang="scss" scoped>
-  .how-to-block {
-    width: 100%;
+.how-to-block {
+  width: 100%;
+
+  @media screen and (max-width: 1200px) {
+    margin: 120px 0;
+  }
+
+  @media screen and (max-width: 680px) {
+    margin: 90px 0;
+  }
+
+  &__title {
+    color: #644c5c;
+    font-size: 38px;
+    line-height: 130%;
+    margin: 0 0 40px 0;
 
     @media screen and (max-width: 1200px) {
-      margin: 120px 0;
+      font-size: 36px;
     }
 
     @media screen and (max-width: 680px) {
-      margin: 90px 0;
-    }
-
-    &__title {
-      color: #644C5C;
-      font-size: 38px;
-      line-height: 130%;
-      margin: 0 0 40px 0;
-
-      @media screen and (max-width: 1200px) {
-        font-size: 36px;
-      }
-
-      @media screen and (max-width: 680px) {
-        font-size: 28px;
-      }
-    }
-
-    &__step-item {
-      background: #ECE7E1;
-      border-radius: 15px;
-      padding: 30px;
-      display: flex;
-      justify-content: space-between;
-
-      &:not(:last-child) {
-        margin: 0 0 15px 0;
-      }
-
-      @media screen and (max-width: 1200px) {
-        flex-direction: column;
-      }
-    }
-
-    &__step-item-title {
-      color: #78353E;
-      font-size: 22px;
-      line-height: 130%;
-      margin: 0;
-
-      @media screen and (max-width: 1200px) {
-        margin: 0 0 15px 0;
-      }
-    }
-
-    &__step-item-content {
-      width: 50%;
-
-      @media screen and (max-width: 1200px) {
-        width: 100%;
-      }
-    }
-
-    &__step-item-text {
-      font-size: 16px;
-      line-height: 24px;
-      color: #232323;
-    }
-
-    &__media-box {
-      margin: 10px 0 0 0;
-    }
-
-    &__media-icon {
-      cursor: pointer;
-
-      &:not(:last-child) {
-        margin: 0 10px 0 0;
-      }
-
-      @media screen and (max-width: 680px) {
-        width: 40px;
-        height: 40px;
-      }
+      font-size: 28px;
     }
   }
+
+  &__step-item {
+    background: #ece7e1;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin: 0 0 15px 0;
+    }
+
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
+  }
+
+  &__step-item-title {
+    color: #78353e;
+    font-size: 22px;
+    line-height: 130%;
+    margin: 0;
+
+    @media screen and (max-width: 1200px) {
+      margin: 0 0 15px 0;
+    }
+  }
+
+  &__step-item-content {
+    width: 50%;
+
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+
+  &__step-item-text a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #232323;
+    text-decoration: none;
+  }
+
+  &__media-box {
+    margin: 10px 0 0 0;
+  }
+
+  &__media-icon {
+    fill: #644c5c;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+
+    @media screen and (max-width: 680px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
 </style>
