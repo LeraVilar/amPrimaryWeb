@@ -4,7 +4,7 @@
       to="/"
       class="academy-header__logo-wrapper"
     >
-      <img class="academy-header__logo" src="~assets/images/logo.svg" alt="" />
+      <img class="academy-header__logo" src="~assets/images/horiz-logo.png" alt="" />
     </nuxt-link>
     <div class="academy-header__nav-menu">
       <nuxt-link
@@ -152,17 +152,18 @@
     }
 
     &__logo {
-      width: 140px;
-      height: 58px;
+      width: 200px;
+      height: 100%;
+      object-fit: contain;
 
       @media screen and (max-width: 1200px) {
-        width: 120px;
-        height: 50px;
+        width: 150px;
+        height: 100%;
       }
 
       @media screen and (max-width: 680px) {
-        width: 105px;
-        height: 44px;
+        width: 140px;
+        height: 100%;
       }
     }
 
